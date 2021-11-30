@@ -3,6 +3,6 @@ package com.example.dictionary.feature_dictionary.presentation
 import com.example.dictionary.feature_dictionary.domain.model.WordInfo
 
 data class WordInfoState(
-    private val wordInfoItems: List<WordInfo> = emptyList(),
+    val wordInfoItems: List<WordInfo> = emptyList(),
     val isLoading: Boolean = false
 )
